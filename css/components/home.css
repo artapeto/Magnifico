@@ -105,7 +105,7 @@
     color: var(--blue-gray-600);
     margin-bottom: 24px;
 }
-.enjoy__inner-link{
+.enjoy__inner-link {
     border-radius: 8px;
     padding: 12px 0px;
     width: 228px;
@@ -119,3 +119,9 @@
     color: var(--blue-600);
     svg{margin-bottom: 2px;}
 }
+
+.enjoy__to__tools{
+    flex-direction: row-reverse;
+}
+
+.tools_inner{max-width: 660px;}
