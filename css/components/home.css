@@ -169,3 +169,29 @@
     svg{margin-bottom: 2px;}
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.footer__logo{
+    display: flex;
+    gap: 8px;
+    color: var(--blue-gray-600);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.footer__list{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.footer__list-item{
+    color: var(--blue-gray-600);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
