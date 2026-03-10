@@ -5,8 +5,9 @@
     border: 1px solid var(--blue-600);
     border-radius: 8px;
     padding: 12px 12px 12px 28px;
-    max-width:max-content;
+    width:172px;
     background-color: var(--blue-600);
     align-items: center;
     color: white;
+    white-space: nowrap;
 }

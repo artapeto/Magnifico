@@ -1,7 +1,8 @@
 .header {
+    gap: 20px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px #E2E8F0 solid ;
+    border-bottom: 1px #E2E8F0 solid;
 }
 
 .header__img {
@@ -24,28 +25,32 @@
     color: var(--blue-gray-900);
 }
 
-.header__btn{
+.header__btn {
     margin: 24px 0px 24px 0px;
 }
 
-.team{
+.team {
     display: flex;
     justify-content: space-between;
 }
-.team__inner{
+
+.team__inner {
     max-width: 600px;
     margin: 120px 0px 120px 0px;
 }
-.team__img{
+
+.team__img {
     margin: 80px 0px 80px 0px;
 }
-.team__inner-title{
+
+.team__inner-title {
     margin-bottom: 24px;
     font-weight: 800;
     font-size: 72px;
     line-height: 110%;
 }
-.team__inner-info{
+
+.team__inner-info {
     margin-bottom: 24px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -53,7 +58,8 @@
     line-height: 160%;
     color: var(--blue-gray-600);
 }
-.team__input{
+
+.team__input {
     border: 1px solid #CBD5E1;
     border-radius: 8px;
     padding: 13px 16px 13px 48px;
@@ -61,50 +67,58 @@
     height: 48px;
 }
 
-.input{
+.input {
     display: flex;
     position: relative;
 }
-.team__input-img{
+
+.team__input-img {
     position: absolute;
     top: 25%;
     left: 2.5%;
 }
-.input__btn{
+
+.input__btn {
     margin-left: 16px;
 }
-.line{
+
+.line {
     max-width: 100%;
     height: 0px;
     border-bottom: 1px #E2E8F0 solid;
 }
 
-.enjoy{
+.enjoy {
     display: flex;
     justify-content: space-between;
 }
-.enjoy__img{
+
+.enjoy__img {
     margin: 80px 0px 80px 0px;
 
 }
-.enjoy__inner{
+
+.enjoy__inner {
     margin: 158.5px 0px 158.5px 0px;
     max-width: 600px;
 }
-.enjoy__inner-title{
+
+.enjoy__inner-title {
     font-weight: 800;
     font-size: 56px;
     line-height: 110%;
     color: var(--blue-gray-900);
     margin-bottom: 24px;
 }
-.enjoy__inner-info{
+
+.enjoy__inner-info {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: var(--blue-gray-600);
     margin-bottom: 24px;
 }
+
 .enjoy__inner-link {
     border-radius: 8px;
     padding: 12px 0px;
@@ -117,16 +131,21 @@
     line-height: 150%;
     letter-spacing: 0.03em;
     color: var(--blue-600);
-    svg{margin-bottom: 2px;}
+
+    svg {
+        margin-bottom: 2px;
+    }
 }
 
-.enjoy__to__tools{
+.enjoy__to__tools {
     flex-direction: row-reverse;
 }
 
-.tools_inner{max-width: 660px;}
+.tools_inner {
+    max-width: 660px;
+}
 
-.problems{
+.problems {
     max-width: 1280px;
     max-height: 496px;
     background-image: url(/images/shariki.png);
@@ -136,25 +155,28 @@
     border-radius: 30px;
     padding: 80px;
 }
-.problems__inner{
+
+.problems__inner {
     max-width: 520px;
 }
 
-.problems__inner-title{
+.problems__inner-title {
     font-weight: 800;
     font-size: 56px;
     line-height: 110%;
     color: white;
     margin-bottom: 24px;
 }
-.problems__inner-info{
+
+.problems__inner-info {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     color: white;
     margin-bottom: 24px;
 }
-.problems__inner-link{
+
+.problems__inner-link {
     border-radius: 8px;
     padding: 12px 0px;
     width: 228px;
@@ -166,15 +188,19 @@
     line-height: 150%;
     letter-spacing: 0.03em;
     color: white;
-    svg{margin-bottom: 2px;}
+
+    svg {
+        margin-bottom: 2px;
+    }
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     gap: 16px;
 }
-.footer__logo{
+
+.footer__left {
     display: flex;
     gap: 8px;
     color: var(--blue-gray-600);
@@ -183,15 +209,30 @@
     font-weight: 400;
 }
 
-.footer__list{
+.footer__list {
     display: flex;
     gap: 24px;
     margin-bottom: 80px;
 }
 
-.footer__list-item{
+.footer__list-item {
     color: var(--blue-gray-600);
     font-size: 16px;
     line-height: 140%;
     font-weight: 400;
+}
+.header__logo{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 110%;
+    color: var(--blue-gray-900);
+    margin: auto 0 ;
+}
+.footer__logo{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    vertical-align: middle;
+    color:  var(--blue-gray-900);
 }
