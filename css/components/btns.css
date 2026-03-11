@@ -1,13 +1,27 @@
-.btn_sign-up{
+.btn_sign-up {
     display: flex;
     align-items: center;
     gap: 16px;
     border: 1px solid var(--blue-600);
     border-radius: 8px;
     padding: 12px 12px 12px 28px;
-    width:172px;
+    width: 172px;
     background-color: var(--blue-600);
     align-items: center;
     color: white;
+    transition: .3s;
     white-space: nowrap;
+
+    &:hover {
+        background-color: white;
+        color: var(--blue-600);
+
+        svg path {
+            fill: var(--blue-600);
+        }
+    }
+
+    svg * {
+        transition: .3s;
+    }
 }
