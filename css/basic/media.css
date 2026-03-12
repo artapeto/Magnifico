@@ -1,0 +1,16 @@
+@media (max-width: 393px) {
+        .container{max-width: 393px;}
+        .container:not(:first-child){padding:0px 16px ;}
+        .container:first-child {padding:0px;}
+        .header__btn{display: none;}
+        .header__list{display: none;}
+        .header__logo{margin:16px 0px 16px 16px;}
+        .team__inner-title{font-size: 40px;font-weight: 700;}
+        .team__inner{max-width: 361px;margin: 48px 0px 32px 0px;}
+        .team{flex-wrap: wrap;}
+        .team__input{max-width: 177px;padding-left: 16px;}
+        .team__img{margin: 0px 0px 96px 0px;}
+        .input__btn{margin-left: 8px;padding-right: 0px;max-width: 160px;gap: 8px;}
+        .team__input-img{display: none;}
+        
+}   
