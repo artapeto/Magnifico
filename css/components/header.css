@@ -1,0 +1,39 @@
+.header {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #E2E8F0 solid;
+}
+
+.header__img {
+    margin: 30.5px 0px 30.5px 0px;
+}
+
+.header__list {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0px 24px 0px;
+}
+
+.header__list-item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var(--blue-gray-900);
+}
+
+.header__btn {
+    margin: 24px 0px 24px 0px;
+}
+
+.header__logo{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 110%;
+    color: var(--blue-gray-900);
+    margin: auto 0 ;
+}

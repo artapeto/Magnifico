@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footer__left {
+    display: flex;
+    gap: 8px;
+    color: var(--blue-gray-600);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.footer__list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.footer__list-item {
+    color: var(--blue-gray-600);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.footer__logo{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    vertical-align: middle;
+    color:  var(--blue-gray-900);
+}
