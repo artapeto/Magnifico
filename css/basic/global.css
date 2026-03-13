@@ -1,8 +1,12 @@
-*{
+* {
     font-family: var(--Roboto);
 }
 
-.container{
+html {
+    overflow-x: hidden;
+}
+
+.container {
     max-width: 1440px;
     padding: 0px 80px;
     margin: 0 auto;

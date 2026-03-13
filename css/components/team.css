@@ -39,14 +39,11 @@
 .input {
     display: flex;
     position: relative;
+    gap: 16px;
 }
 
 .team__input-img {
     position: absolute;
     top: 25%;
     left: 2.5%;
-}
-
-.input__btn {
-    margin-left: 16px;
 }
