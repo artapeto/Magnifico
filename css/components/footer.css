@@ -33,3 +33,9 @@
     vertical-align: middle;
     color:  var(--blue-gray-900);
 }
+@media (max-width: 393px) {
+        .footer{flex-wrap: wrap;}
+        .footer__left{display: block;margin-bottom: 28px;}
+        .footer__logo{margin:24px 0px  16px 0px;}
+        .footer__list{margin-bottom: 36px;gap: 27px;flex-wrap: wrap;justify-content: center;}    
+}   

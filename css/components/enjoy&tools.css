@@ -56,3 +56,12 @@
 }
 
 .enjoy__img-mob{display: none;}
+
+@media (max-width: 393px) {
+        .enjoy{flex-wrap: wrap-reverse;}
+        .enjoy__inner{margin: 48px 0px 32px 0px;}
+        .enjoy__inner-title{font-size: 40px;}
+        .enjoy__inner-info{color: var(--blue-gray-900);}
+        .enjoy__img{display: none;}
+        .enjoy__img-mob{margin: 0px 0px 48px 0px; align-items: center; display: block; width: 345px;height: 345px;}
+}   

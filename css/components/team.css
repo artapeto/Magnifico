@@ -47,3 +47,15 @@
     top: 25%;
     left: 2.5%;
 }
+
+@media (max-width: 393px) {
+        .team__inner-title{font-size: 40px;font-weight: 700;}
+        .team__inner{max-width: 361px;margin: 48px 0px 32px 0px;}
+        .team__inner-info{color: var(--blue-gray-900);}
+        .team{flex-wrap: wrap;}
+        .team__input{max-width:max-content;padding-left: 16px;margin: 0 auto;}
+        .team__img{margin: 0px 0px 96px 0px;}
+        .input__btn{padding-right: 0px;max-width: 160px;gap: 8px;margin: 0 auto;}
+        .team__input-img{display: none;}
+        .input{flex-wrap: wrap; padding:0px 16px;}      
+}   

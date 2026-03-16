@@ -17,3 +17,9 @@ html {
     height: 0px;
     border-bottom: 1px #E2E8F0 solid;
 }
+    
+@media (max-width: 393px) {
+        .container{max-width: 393px;}
+        .container:not(:first-child){padding:0px 16px ;}
+        .container:first-child {padding:0px;}
+    }

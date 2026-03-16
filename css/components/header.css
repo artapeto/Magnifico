@@ -37,3 +37,11 @@
     color: var(--blue-gray-900);
     margin: auto 0 ;
 }
+@media (max-width: 900px) {
+        .header__list{gap: 10px;}
+}   
+@media (max-width: 393px) {
+        .header__btn{display: none;}
+        .header__list{display: none;}
+        .header__logo{margin:16px 0px 16px 16px;}
+}   
