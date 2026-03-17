@@ -39,7 +39,14 @@
 }
 @media (max-width: 900px) {
         .header__list{gap: 10px;}
+        .header__btn{display: none;}
 }   
+
+@media (max-width: 565px) {
+        .header__list{display: none;}
+        .header__logo{margin: 14px 0;}
+}   
+
 @media (max-width: 393px) {
         .header__btn{display: none;}
         .header__list{display: none;}

@@ -1,6 +1,5 @@
 .problems {
     max-width: 1280px;
-    max-height: 496px;
     background-image: url(/images/shariki.png);
     margin: 80px 0px 80px 0px;
     display: flex;
@@ -46,8 +45,12 @@
         margin-bottom: 2px;
     }
 }
+@media (max-width: 920px) {        
+    .problems{padding: 40px;    background-repeat: no-repeat;
+    background-size: cover; }
+}   
 
 @media (max-width: 393px) {
         .problems{padding:48px 24px ; border-radius: 0px; margin:0px -16px 0px -16px;background-image: url(/images/shariki_mob.png);}
-        .problems__inner-title{font-size: 40px; font-weight: 700;}   
+        .problems__inner-title{font-size: 40px; font-weight: 700;}
 }   

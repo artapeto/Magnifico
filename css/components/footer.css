@@ -33,6 +33,15 @@
     vertical-align: middle;
     color:  var(--blue-gray-900);
 }
+
+@media (max-width:710px){
+    .footer{flex-wrap: wrap;justify-content: center;gap: 20px;}
+}
+
+@media (max-width:510px){
+    .footer__list{flex-wrap: wrap;justify-content: center;}
+}
+
 @media (max-width: 393px) {
         .footer{flex-wrap: wrap;}
         .footer__left{display: block;margin-bottom: 28px;}
