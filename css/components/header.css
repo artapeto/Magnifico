@@ -52,12 +52,18 @@
     .header__list {
         display: none;
     }
-.container:first-child{padding: 0px 5px;}
+
+    .container:first-child {
+        padding: 0px 5px;
+    }
+
     .header__logo {
         margin: 14px 0;
     }
 
-                .menu{display: block;}
+    .menu {
+        display: block;
+    }
 }
 
 @media (max-width: 393px) {
